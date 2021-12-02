@@ -1,0 +1,17 @@
+﻿<UserControl x:Class="SudokuSolver.SudokuCanvas"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:SudokuSolver"
+             mc:Ignorable="d" 
+             d:DesignHeight="700" d:DesignWidth="800">
+    <Grid>
+        <Canvas x:Name="canvas" Margin="10,10,10,75" Width="700" Height="600"/>
+        <Button x:Name="solve5ThreadButton" Content="5 thread ile çöz" Click="solve5ThreadButton_Click" Height="20" Width="100" Margin="256,0,0,10" HorizontalAlignment="Left" VerticalAlignment="Bottom"/>
+        <Button x:Name="solve10ThreadButton" Content="10 thread ile çöz" Click="solve10ThreadButton_Click" Height="20" Width="100" Margin="421,0,0,10" HorizontalAlignment="Left" VerticalAlignment="Bottom"/>
+        <Button x:Name="showGraphButton" Content="Grafiği göster" Height="20" Width="100" Margin="576,0,0,10" HorizontalAlignment="Left" VerticalAlignment="Bottom" Click="showGraphButton_Click"/>
+        <Button x:Name="resetSudokuButton" Content="Sıfırla" Height="20" Width="100" Margin="93,0,0,10" HorizontalAlignment="Left" VerticalAlignment="Bottom" Click="resetSudokuButton_Click" />
+
+    </Grid>
+</UserControl>

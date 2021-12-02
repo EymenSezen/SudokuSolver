@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "SudokuSolver": {
+      "commandName": "Project",
+      "workingDirectory": "./"
+    }
+  }
+}
